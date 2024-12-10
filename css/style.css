@@ -1,6 +1,9 @@
 /* Box Model Hack */
 * {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
+    outline: 2px solid green;
 }
 
 /* Clear fix hack */
@@ -21,10 +24,26 @@
 /* BASE STYLES
 /*******************************************/
 
+
 body {
-
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
+h1 {
+    color: plum;
+    background-color: peru;
+    margin: 0;
+}
+ul, ol {
+    padding-inline-start: 40px;
+    background-color: antiquewhite;
+}
+li {
+    color: blueviolet;
+}
 
 /******************************************
 /* LAYOUT
